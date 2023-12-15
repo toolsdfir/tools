@@ -1,0 +1,3 @@
+autoexec:
+  argv: ["artifacts", "collect", "-v", "Windows.Forensics.Timeline",
+         "--output", "WinForensicsTimeline_$COMPUTERNAME.zip"]

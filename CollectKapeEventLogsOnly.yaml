@@ -1,0 +1,5 @@
+autoexec:
+  argv: ["artifacts", "collect", "-v", "Windows.KapeFiles.Targets",
+         "--output", "Kape_EventLogs_$COMPUTERNAME.zip",
+         "--args", "EventLogs_RDP=Y", 
+         "--args", "EventLogs=Y"]

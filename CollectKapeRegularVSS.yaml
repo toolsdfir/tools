@@ -1,0 +1,13 @@
+autoexec:
+  argv: ["artifacts", "collect", "-v", "Windows.KapeFiles.Targets",
+         "--output", "Kape_Regular_VSS_$COMPUTERNAME.zip",
+         "--args", "_BasicCollection=Y",
+         "--args", "_SANS_Triage=Y",
+         "--args", "KapeTriage=Y",
+         "--args", "WebBrowsers=Y",
+         "--args", "WBEM=Y",
+         "--args", "WER=Y",
+         "--args", "WindowsDefender=Y",
+         "--args", "MOF=Y",
+         "--args", "BITS=Y",
+         "--args", "VSSAnalysis=Y"]

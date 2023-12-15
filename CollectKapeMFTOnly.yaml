@@ -1,0 +1,5 @@
+autoexec:
+  argv: ["artifacts", "collect", "-v", "Windows.KapeFiles.Targets",
+         "--output", "Kape_MFT_$COMPUTERNAME.zip",
+         "--args", "_MFT=Y",
+         "--args", "Device=C:"]

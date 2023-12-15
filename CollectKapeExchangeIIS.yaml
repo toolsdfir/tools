@@ -1,0 +1,14 @@
+autoexec:
+  argv: ["artifacts", "collect", "-v", "Windows.KapeFiles.Targets",
+         "--output", "Kape_ExchangeIIS_$COMPUTERNAME.zip",
+         "--args", "_BasicCollection=Y",
+         "--args", "_SANS_Triage=Y",
+         "--args", "KapeTriage=Y",
+         "--args", "WebBrowsers=Y",
+         "--args", "WBEM=Y",
+         "--args", "WER=Y",
+         "--args", "WindowsDefender=Y",
+         "--args", "BITS=Y",
+         "--args", "Exchange=Y",
+         "--args", "IISLogFiles=Y",
+         "--args", "MOF=Y"]
